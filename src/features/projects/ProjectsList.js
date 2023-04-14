@@ -1,11 +1,14 @@
 import { Col, Row } from 'reactstrap';
-import { PROJECTS } from '../../app/shared/PROJECTS';
+//import { PROJECTS } from '../../app/shared/PROJECTS';
 import ProjectCard from "./ProjectCard";
+import { selectAllProjects } from './projectsSlice';
 
 const ProjectsList = () => {
+    const projects = selectAllProjects();
+
     return (
         <Row className='ms-auto'>
-            {PROJECTS.map((project) => {
+            {projects.map((project) => {
                 return (
                     <Col 
                         md='5' 
