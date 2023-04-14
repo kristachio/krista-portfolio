@@ -14,8 +14,8 @@ function App() {
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='contact' element={<ContactPage />} />
-                <Route path='directory' element={<ProjectsDirectoryPage />} />
-                <Route path='directory/:projectId' element={<ProjectDetailPage />} />
+                <Route path='projects' element={<ProjectsDirectoryPage />} />
+                <Route path='projects/:projectId' element={<ProjectDetailPage />} />
             </Routes>
             <Footer />
         </div>
