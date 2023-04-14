@@ -8,6 +8,7 @@ import ProjectsDirectoryPage from './pages/ProjectsDirectoryPage';
 import ProjectDetailPage from './pages/ProjectDetailPage';
 import './App.css';
 
+
 function App() {
     return (
         <div className='App'>

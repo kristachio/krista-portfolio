@@ -1,10 +1,11 @@
 import { Container } from 'reactstrap';
-import SubHeader from '../components/SubHeader';
+import HomeComp from '../components/HomeComp';
+
 
 const HomePage = () => {
     return (
         <Container>
-            <SubHeader current='Home' />            
+          <HomeComp />              
         </Container>
     );
 };
