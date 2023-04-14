@@ -16,7 +16,8 @@ const AboutPage = () => {
                     <Card>
                         <CardHeader className='bg-primary text-white'>
                             <h3>Placeholder</h3>
-                                <CardBody>
+                        </CardHeader>
+                        <CardBody>
                                     <dl className='row'>
                                         <dt className='col-6'>Placeholder</dt>
                                         <dd className='col-6'>Placeholder</dd>
@@ -27,8 +28,7 @@ const AboutPage = () => {
                                         <dt className='col-6'>Placeholder</dt>
                                         <dd className='col-6'>Placeholder</dd>
                                     </dl>   
-                                </CardBody>
-                        </CardHeader>
+                        </CardBody>
                     </Card>
                 </Col>
                 <Col>
