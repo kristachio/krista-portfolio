@@ -20,7 +20,7 @@ function App() {
                 <Route path='projects/:projectId' element={<ProjectDetailPage />} />
                 <Route path='about' element={<AboutPage />} />
             </Routes>  
-            <Footer />
+          <Footer />
         </div>
     );
 }

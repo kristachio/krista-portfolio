@@ -1,14 +1,15 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 body {
-    font-family: 'Comic Sans', sans-serif;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
 h1,
 h2,
 h3,
 .card-body > .card-title {
-    font-family: 'Lobster', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .card-title {

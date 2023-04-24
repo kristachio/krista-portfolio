@@ -8,7 +8,7 @@ const TypewriterText = () => {
         strings: [
           "React JS Developer",
           "Front End Developer",
-          "Cool Chick"
+          
         ],
         autoStart: true,
         loop: true,
